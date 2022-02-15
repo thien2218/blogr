@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import logo from '../images/logo.svg';
-import arrow from '../images/icon-arrow-light.svg';
+import logo from '../../images/logo.svg';
+import arrow from '../../images/icon-arrow-light.svg';
 
 const Nav = () => {
    return (

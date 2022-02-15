@@ -1,11 +1,11 @@
 import Nav from "./Nav";
 import Image from 'next/image';
-import intro from '../images/bg-pattern-intro-desktop.svg';
+import intro from '../../images/bg-pattern-intro-desktop.svg';
 
 const Header = () => {
    return (
       <div className="header">
-         <div className="intro-icon">
+         <div className="intro-icon no-cursor">
             <Image src={intro} />
          </div>
 
