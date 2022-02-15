@@ -12,7 +12,7 @@ const Header = () => {
          <Nav />
 
          <div className="intro">
-            <div className="intro-h1">
+            <div className="intro-head">
                A modern publishing platform
             </div>
 

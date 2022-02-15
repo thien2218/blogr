@@ -33,7 +33,7 @@
    display: flex;
 }
 
-.logo {
+.header-logo {
    position: relative;
    z-index: 2;
    margin-right: 65px;
@@ -46,7 +46,6 @@
    z-index: 2;
    display: flex;
    cursor: pointer;
-   list-style: none;
 }
 
 .nav-links li {
@@ -92,7 +91,7 @@
    flex-direction: column;
 }
 
-.intro-h1 {
+.intro-head {
    font-size: 66px;
    margin-bottom: 10px;
    letter-spacing: -0.04em;
