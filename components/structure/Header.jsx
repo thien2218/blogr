@@ -6,7 +6,7 @@ const Header = () => {
    return (
       <div className="header">
          <div className="intro-icon no-cursor">
-            <Image src={intro} />
+            <Image src={intro} layout='fixed' />
          </div>
 
          <Nav />

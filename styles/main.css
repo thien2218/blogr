@@ -5,23 +5,54 @@
    color: #294059;
 }
 
+/* Headings */
+.head1 {
+   letter-spacing: -0.025em;
+   font-size: 40px;
+}
+
+.head2 {
+   margin-bottom: 30px;
+   letter-spacing: 0.007em;
+   font-size: 28px;
+}
+
+/* Section's text */
+.section-text {
+   opacity: .6;
+   line-height: 175%;
+}
+
+.section-content {
+   position: relative;
+   z-index: 2;
+   max-width: 530px;
+}
+
+.justify-end {
+   justify-self: end;
+}
+
+.justify-start {
+   justify-self: start;
+}
+
+/* Main content section 1 */
 .section1 {
    position: relative;
    width: 100%;
    display: grid;
    grid-template-columns: 1fr 1fr;
+   margin-bottom: 65px;
 }
 
-.editor-illustration {
-   position: relative;
-   width: calc(100% + 200px);
-   right: -75px;
+.editor {
+   background: url(../images/illustration-editor-desktop.svg) no-repeat 70px 0;
+   height: 882px;
 }
 
 .section1-head1 {
    position: relative;
-   font-size: 40px;
-   letter-spacing: -0.025em;
    display: flex;
    justify-content: flex-end;
    padding-bottom: 112px;
@@ -36,7 +67,8 @@
 .section1-content {
    position: relative;
    z-index: 2;
-   padding-left: 156px;
+   max-width: 550px;
+   justify-self: end;
 }
 
 .content1 {
@@ -44,13 +76,51 @@
 }
 
 .section1-head2 {
-   font-size: 28px;
-   letter-spacing: 0.007em;
    font-weight: 600;
-   margin-bottom: 30px;
 }
 
-.section1-text {
-   opacity: .6;
-   line-height: 175%;
+/* Main content section 2 */
+.section2-wrapper {
+   height: 400px;
+   width: 100%;
+   border-radius: 0px 95px;
+   background: linear-gradient(90deg, #2E2F41 10.59%, #3F4064 55.17%);
+   margin-bottom: 115px;
+   color: #fff;
+}
+
+.section2 {
+   height: 100%;
+   background: url(../images/bg-pattern-circles.svg) no-repeat -213px 85%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+
+.section2 div {
+   max-height: 400px;
+}
+
+.phone {
+   display: flex;
+   align-items: center;
+   justify-self: end;
+   margin-right: 100px;
+}
+
+.section2-head1 {
+   margin-bottom: 40px;
+}
+
+/* Main content's section 3 */
+.section3 {
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+
+.desktop {
+   background: url(../images/illustration-laptop-desktop.svg) no-repeat -278px 0;
+   height: 786px;
 }

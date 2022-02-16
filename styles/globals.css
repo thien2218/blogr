@@ -30,6 +30,7 @@ button {
    font-size: 1rem;
    cursor: pointer;
    transition: .3s ease;
+   line-height: 100%;
 }
 
 li {
