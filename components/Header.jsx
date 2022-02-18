@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 import Image from 'next/image';
-import intro from '../../images/bg-pattern-intro-desktop.svg';
+import intro from '../images/bg-pattern-intro-desktop.svg';
 
 const Header = () => {
    return (
